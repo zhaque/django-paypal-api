@@ -1,5 +1,5 @@
 from cgi import parse_qs
-from .conf import ACK_SUCCESS, ACK_SUCCESS_WITH_WARNING
+from paypal_api.conf import ACK_SUCCESS, ACK_SUCCESS_WITH_WARNING
 
 class Response(object):
     def __init__(self, query_string):
