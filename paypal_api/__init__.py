@@ -1,1 +1,1 @@
-from .paypal import *
+from paypal_api.paypal import *

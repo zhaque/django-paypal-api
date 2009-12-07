@@ -1,6 +1,6 @@
 # coding=utf-8
 
-from paypal import *
+from paypal_api.paypal import *
 import unittest
 
 class TestDirectPayment(unittest.TestCase):
